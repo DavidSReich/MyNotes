@@ -1,5 +1,5 @@
 //
-//  My_NotesTests.swift
+//  MyNotesTests.swift
 //  My NotesTests
 //
 //  Created by David S Reich on 17/5/2023.
@@ -8,7 +8,7 @@
 import XCTest
 @testable import My_Notes
 
-final class My_NotesTests: XCTestCase {
+final class MyNotesTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,5 +1,5 @@
 //
-//  My_NotesUITestsLaunchTests.swift
+//  MyNotesUITestsLaunchTests.swift
 //  My NotesUITests
 //
 //  Created by David S Reich on 17/5/2023.
@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class My_NotesUITestsLaunchTests: XCTestCase {
+final class MyNotesUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
