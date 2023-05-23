@@ -35,6 +35,10 @@ class NoteDetailViewModel: ObservableObject, Hashable {
         name = note.name ?? ""
     }
 
+    func reset() {
+        name = note.name
+    }
+
     func saveNote() -> Error? {
         var saveError: Error?
 
