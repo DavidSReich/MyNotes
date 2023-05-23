@@ -12,7 +12,7 @@ class NoteListViewModel: ObservableObject {
     @Published var showNoteAddView = false
 
     func detailView(noteDetailViewModel: NoteDetailViewModel) -> some View {
-        noteDetailViewModel.name = noteDetailViewModel.note.name ?? ""
+        noteDetailViewModel.reset()
         return NoteDetailView(noteDetailViewModel: noteDetailViewModel)
     }
 
